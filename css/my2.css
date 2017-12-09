@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+body{
+	background: #fff;
+	color: #333;
+	position: relative;
+	}
+a {
+	/*color: #52b6ec;*/
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+	}
+a:hover,a:focus {
+	/*color: #80c9f1;*/
+	text-decoration: none;
+	outline: none;
+	}
+
+
+
+/*------头部信息--------*/
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+	border-bottom:solid 1px #CCC;
+	}
+#my-navbar{
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	}
+.nav-item{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	}
+.nav-link.active{
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    }
+
+/*.navbar-light .navbar-nav .nav-link.active{
+	 background-color: #007bff;
+	}*/
+.section{
+	padding-top: 70px;
+	}
+.section-title{
+    text-align: center;
+	}
+ .section-title >h1{
+    color: #00b3fd;
+    font-size: 2rem;
+    margin: 0px;
+}
+.section-title >span{
+	width: 10rem;
+    border-top: solid 2px #00b3fd;
+    display: inline-block;
+    margin: 0px;
+    }
+.job-img{
+	display: inline-block; 
+	width:8em; 
+	height:6rem; 
+	}
+.job-body{
+	line-height: 1rem;
+}
+.title{
+	font-size: 1.5rem;
+	padding-top: 0.5rem;
+	margin: 0.5rem,0rem;
+	}
+.detail{
+	padding-left: 0rem;
+	margin: 0.5rem,0rem;
+	}
+.detail li {
+	padding-left: 0rem;
+	}
+
+blockquote {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left:1rem ;
+    background-color: #f7f7f7;
+    border-left: 0.5rem solid #b4b4b4;
+    word-break: break-word;
+    font-size: 1rem;
+    }
+
+/*------联系我们--------*/
+#about-us{
+	/*background-image: url(../images/content_bg.png);*/
+	background-position: 50% 50%;
+	background-repeat: repeat-x;
+	/*background-color:#626160;*/
+	}
+#about-us>p{ 
+	font-size:12px; 
+	}
+	
+.contact-img{
+	display: inline-block; 
+	width:40px; 
+	height:35px; 
+	}
+
+/*------footer--------*/
+#footer{
+	text-align:center;
+	color:#a4a7b1;
+	font-size:1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+/* Extra small devices (portrait phones, less than 576px)
+ * No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+.nav-item{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+.nav-item{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+}
+ 	
+
+
+	
+
+/*.navbar-default .navbar-nav > li > a > i {
+  display: inline-block;
+  }
+  
+  
+ /*设置直接子元素的颜色  x>y x下的直接y元素， x y指x下的所有y元素*/
+/*.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active:focus > a,
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active:focus > a:focus,
+.navbar-default .navbar-nav > li.active:hover > a:focus,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a,
+.navbar-default .navbar-nav > li:hover > a:focus,
+.navbar-default .navbar-nav > li:focus > a:focus {
+	background-color: #52b6ec;
+	color: #fff;
+	}	
+@media (min-width: 768px) {
+	#header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 65px;
+		background-color:#FFF;
+		z-index: 99999;
+		border-bottom:solid 1px #CCC;
+		}
+	}
+
+@media (min-width: 100px) {
+	.navbar-default .navbar-brand {
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 121px;
+	height: 62px;
+	/*background: url(../images/logo_min.png) no-repeat left center ;*/
+	}
+}*/
+
+/*
+@media (min-width: 1200px) {
+.navbar-default .navbar-brand {
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 300px;
+	height: 62px;
+	/*background: url(../images/logo.png) no-repeat left center;*/
+	}
+}*/
